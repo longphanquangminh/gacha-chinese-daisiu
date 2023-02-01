@@ -9,7 +9,7 @@ root = Tk()
 root.title("Bộ môn Tài xỉu, chơi thua tự hỉu <3")
 root.geometry("900x500")
 
-dice_faces = ['\u2680', '\u2681', '\u2682', '\u2683', '\u2684', '\u2685', ]
+dice_faces = ['\u2680', '\u2681', '\u2682', '\u2683', '\u2684', '\u2685']
 
 dice_label = Label(root, font=("Helvetica", 200))
 result_label = Label(root, font=("Helvetica", 40))
