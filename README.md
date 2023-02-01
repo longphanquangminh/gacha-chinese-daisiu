@@ -1,0 +1,1 @@
+Run `python main.py` command in Terminal to play game.
