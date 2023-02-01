@@ -2,6 +2,8 @@ from tkinter import *
 import random
 
 # nanosecond from 1970
+# made by PQML
+# references: Toi Di Code Dao
 random.seed()
 root = Tk()
 root.title("Bộ môn Tài xỉu, chơi thua tự hỉu <3")
