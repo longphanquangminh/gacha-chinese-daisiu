@@ -23,7 +23,7 @@ def roll():
     dice_label.pack()
 
     sum = first_dice + second_dice + third_dice
-    result_label.config(text='Tài' if sum > 10 else 'Xỉu', foreground='red' if sum > 10 else 'green')
+    result_label.config(text='Tài (大)' if sum > 10 else 'Xỉu (小)', foreground='red' if sum > 10 else 'green')
     result_label.pack(after=dice_label)
 
 b1 = Button(root, text="Lắc xúc xắc", foreground='blue', command=roll)
